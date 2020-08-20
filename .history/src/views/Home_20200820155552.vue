@@ -2,7 +2,7 @@
   <div>
     <top></top>
     <Navigation :city="city"></Navigation>
-    <navbox></navbox>
+    <navbox :menu='menu'></navbox>
   </div>
 </template>
 

@@ -6,15 +6,13 @@
           <div class="navleftbox-item" v-for="(item,index) in menu" :key="index">
             <!-- 信息-->
             <div>
-              <svg class="icon" aria-hidden="true">
-                <use :xlink:href="`#${item.icon}`" />
-              </svg>
-              <span>{{item.name}}</span>
+                <svg class="icon" aria-hidden="true">
+                  <use :xlink:href="`#${item.icon}`" />
+                </svg>
+                <span>{{item.name}}</span>
             </div>
             <!-- 右箭头-->
-            <div>
-              <img class="icon1" src="../../../public/image/right.png" alt />
-            </div>
+            <div><img class="icon" src="" alt=""></div>
           </div>
         </div>
         <div class="navrightbox"></div>

@@ -2,7 +2,7 @@
   <div>
     <top></top>
     <Navigation :city="city"></Navigation>
-    <navbox></navbox>
+    <navbox :menu='menu'></navbox>
   </div>
 </template>
 
@@ -21,7 +21,6 @@ export default {
   data() {
     return {
       city: "",
-      menu:[]
     };
   },
   methods: {},
@@ -40,7 +39,14 @@ export default {
         this.city = JSON.parse(res.data).city;
       })
       .catch((err) => {});
-   
+    // 获取全部分类
+    this.$api
+      .getall()
+      .then((res) => {
+        console.log(res);
+        this.menu = res.data.menu
+      })
+      .catch((err) => {});
   },
 
   watch: {},

@@ -3,18 +3,17 @@
     <div class="top">
       <div class="navbox">
         <div class="navleftbox">
-          <div class="navleftbox-item" v-for="(item,index) in menu" :key="index">
+          <div class="navleftbox-item">
             <!-- 信息-->
-            <div>
-              <svg class="icon" aria-hidden="true">
-                <use :xlink:href="`#${item.icon}`" />
-              </svg>
-              <span>{{item.name}}</span>
+            <div >
+              <span>
+                 <svg class="icon" aria-hidden="true">
+  <use :xlink:href="`#${item.icon}`" />
+</svg>
+              </span>
             </div>
             <!-- 右箭头-->
-            <div>
-              <img class="icon1" src="../../../public/image/right.png" alt />
-            </div>
+            <div></div>
           </div>
         </div>
         <div class="navrightbox"></div>
@@ -26,11 +25,14 @@
 <script>
 export default {
   name: "",
-  props: {},
+  props: {
+    
+   
+  },
   components: {},
   data() {
     return {
-      menu: [],
+        menu:[],
       Uicons: [
         {
           icon: "icon-tubiaozhizuomoban_meishi",
@@ -85,18 +87,18 @@ export default {
   },
   methods: {},
   mounted() {
-    // 获取全部分类
+       // 获取全部分类
     this.$api
       .getall()
       .then((res) => {
-        this.menu = res.data.menu;
-        this.menu.map((item, index) => {
-          this.Uicons.map((item1, index1) => {
-            if (index === index1) {
-              this.$set(item, "icon", item1.icon);
-            }
-          });
-        });
+        this.menu = res.data.menu
+        this.menu.map((item,index) => {
+            this.Uicons.map((item1,index1) => {
+                if(index === index1){
+                    this.$set(item,'icon',item1.icon)
+                }
+            })
+        })
         console.log(this.menu);
       })
       .catch((err) => {});

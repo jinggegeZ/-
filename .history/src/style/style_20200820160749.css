@@ -304,9 +304,6 @@
 .navleftbox {
     width: 228px;
     height: 425px;
-    border-left: 1px solid rgb(229,229,229);
-    border-right: 1px solid rgb(229,229,229);
-    border-bottom: 1px solid rgb(229,229,229);
 }
 .navrightbox {
     width: 930px;
@@ -321,7 +318,6 @@
     justify-content: space-between;
     align-items: center;
     flood-color: #646464;
-    margin-top: 1px;
 }
 .navleftbox-item:hover {
     background: rgb(255,247,235);

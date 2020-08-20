@@ -21,7 +21,6 @@ export default {
   data() {
     return {
       city: "",
-      menu:[]
     };
   },
   methods: {},
@@ -40,7 +39,14 @@ export default {
         this.city = JSON.parse(res.data).city;
       })
       .catch((err) => {});
-   
+    // 获取全部分类
+    this.$api
+      .getall()
+      .then((res) => {
+        console.log(res);
+        this.meun = res
+      })
+      .catch((err) => {});
   },
 
   watch: {},

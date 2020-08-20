@@ -1,27 +1,26 @@
 <template>
   <div>
-    <top></top>
-    <Navigation :city="city"></Navigation>
-    <navbox></navbox>
+      <top></top>
+      <Navigation :city='city'></Navigation>
+      <navbox></navbox>
   </div>
 </template>
 
 <script>
 import top from "../components/top/top";
 import Navigation from "../components/Navigation/Navigation";
-import navbox from "../components/navbox/navbox";
+import navbox from "../components/navbox/navbox"
 export default {
   name: "",
   props: {},
   components: {
     top,
     Navigation,
-    navbox,
+    navbox
   },
   data() {
     return {
-      city: "",
-      menu:[]
+      city:''
     };
   },
   methods: {},
@@ -37,16 +36,20 @@ export default {
     this.$api
       .getposition()
       .then((res) => {
-        this.city = JSON.parse(res.data).city;
+        this.city = JSON.parse(res.data).city
       })
       .catch((err) => {});
-   
+      // 获取全部分类
+    this.$api.getall().then(res => {
+      console.log(res);
+    }).catch(err => {})
   },
-
+    
   watch: {},
   computed: {},
 };
 </script>
 
 <style scoped lang='scss'>
+
 </style>

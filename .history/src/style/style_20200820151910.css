@@ -68,7 +68,7 @@
 }
 .rightbox2 {
     visibility: hidden;
-    right: -1px;
+    right: 0;
     position: absolute;
     z-index: 998;
     top: 99%;
@@ -82,7 +82,7 @@
     height: 36px;
     line-height: 36px;
     text-align: center;
-    width: 80px;
+    width: 78px;
 }
 .rightbox4 {
     height: 36px;
@@ -304,34 +304,10 @@
 .navleftbox {
     width: 228px;
     height: 425px;
-    border-left: 1px solid rgb(229,229,229);
-    border-right: 1px solid rgb(229,229,229);
-    border-bottom: 1px solid rgb(229,229,229);
+    background: skyblue;
 }
 .navrightbox {
     width: 930px;
-    height: 425px;
+    height: 228px;
     background: red;
-    margin-left: 5px;
 }
-.navleftbox-item {
-    width: 100%;
-    height: 26px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flood-color: #646464;
-    margin-top: 1px;
-}
-.navleftbox-item:hover {
-    background: rgb(255,247,235);
-}
-.icon {
-    width: 16px !important;
-    height: 16px !important;
-    margin-right: 10px;
-  }
-  .icon1 {
-      width: 12px;
-      height: 12px;
-  }
