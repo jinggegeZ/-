@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/* top样式 */
+.topbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background:rgb(248,248,248);
+    font-size: 14px;
+}
+.top {
+    width: 1190px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftbox {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+}
+.rightbox {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+}
+.leftboximg {
+    width: 20px;
+    height: 20px;
+}
+.rightnow :hover {
+    color: yellow;
+}

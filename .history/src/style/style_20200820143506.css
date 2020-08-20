@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/* 这是css3媒体查询 */
+@media screen and (max-width: 1200px) {
+    .top {
+        width: 960px !important;
+    }
+}
+/* top样式 */
+.topbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background:rgb(248,248,248);
+    font-size: 14px;
+}
+.topbox1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 15px 10px -15px #ccc;
+    font-size: 14px;
+}
+.top {
+    width: 1190px;
+    
+}
+.top1 {
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between; 
+}
+.leftbox {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+.leftbox div:hover {
+    color: #FE8C00;
+}
+.rightbox {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+.rightbox1 {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.postion {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+.rightbox2 {
+    visibility: hidden;
+    right: 0;
+    position: absolute;
+    z-index: 998;
+    top: 99%;
+    background: white;
+    border-left: 1px solid rgb(229,229,229);
+    border-bottom: 1px solid rgb(229,229,229);
+    border-right: 1px solid rgb(229,229,229);
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+.rightbox3 {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 78px;
+}
+.rightbox4 {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 118px;
+}
+.rightbox5 {
+    width: 1190px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.rightbox6 {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.rightbox6-1 {
+    width: 200px;
+}
+.rightbox6-1-1 {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.rightbox6-1-2 {
+    width: 200px;
+    height: 190px;
+    font-size: 12px;
+}
+.rightbox6-1-2-1 {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightbox6-1-2-2 {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rightbox6-2 {
+    width: 100px;
+}
+.rightbox6-2-1 {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.rightbox6-2-1-1 {
+    width: 100px;
+    height: 190px;
+    font-size: 12px;
+}
+.rightbox6-2 {
+    width: 100px;
+}
+.rightbox6-2-1-1-font {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightbox6-3 {
+    width: 350px;
+
+}
+.rightbox6-3-1 {
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.rightbox6-3-1-1 {
+    width: 350px;
+    height: 190px;
+    font-size: 12px;
+}
+.rightbox6-3-1-1-1 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightbox6-3-1-1-1-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.nav2box2font:hover {
+    color: rgb(251,199,0);
+}
+.nav2box2font2:hover {
+    color: red;
+}
+.postion:hover {
+    color: #FE8C00;
+}
+.rightbox3:hover {
+    color: #FE8C00;
+}
+.rightbox4:hover {
+    color: #FE8C00;
+}
+.rightbox1:hover .rightbox2{
+    visibility:visible
+}
+.rightbox1:hover {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.rightbox1:hover .postion {
+    background-color: white;
+    
+    
+}
+.leftboximg {
+    width: 15px;
+    height: 15px;
+}
+.rightnow{
+    color: #FE8C00;
+}
+/* nav部分 */
+.nav {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav1 {
+    width: 240px;
+    margin-right: 100px;
+}
+.nav1img {
+    width: 126px;
+    height: 46px;
+    
+}
+.nav1input {
+    display: flex;
+    width: 469px;
+    height: 50px;
+    align-items: center;
+}
+.nav1input1 {
+    width: 469px;
+    position: relative;
+}
+.nav1inputbox {
+    position: absolute;
+    top: 0;
+    width: 469px;
+}
+.item {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    border-top: 1px solid rgb(229,229,229);
+}
+.nav1inputboox {
+    width: 80px;
+    height: 40px;
+    background-color: #FE8C00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav1inputbooximg {
+    width: 20px;
+    height: 20px;
+}
+.nav2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.nav2box {
+    width: 228px;
+    height: 50px;
+    border-left: 1px solid rgb(229,229,229);
+    border-top: 1px solid rgb(229,229,229);
+    border-right: 1px solid rgb(229,229,229);
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.all {
+    padding-left: 20px;
+}
+.nav2box2 {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    font-size: 17px;
+}

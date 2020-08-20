@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/* 这是css3媒体查询 */
+@media screen and (max-width: 1200px) {
+    .top {
+        width: 960px !important;
+    }
+}
+/* top样式 */
+.topbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background:rgb(248,248,248);
+    font-size: 14px;
+}
+.topbox1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    font-size: 14px;
+}
+.top {
+    width: 1190px;
+    
+}
+.top1 {
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between; 
+}
+.leftbox {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+}
+.leftbox div:hover {
+    color: #FE8C00;
+}
+.rightbox {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+}
+.rightbox div:hover {
+    color: #FE8C00;
+}
+.leftboximg {
+    width: 15px;
+    height: 15px;
+}
+.rightnow{
+    color: #FE8C00;
+}
+/* nav部分 */
+.nav1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 157px;
+}
+.nav1img {
+    width: 126px;
+    height: 46px;
+    margin-right: 100px;
+}
