@@ -27,9 +27,7 @@
                   </div>
                   <!-- 详细数据-->
                   <div class="itembox3">
-                    <div class="itembox4" v-for="(item2,index2) in item1.child" :key="index2">
-                        {{item2}}
-                    </div>
+                    <div class="itembox4"></div>
                   </div>
                 </div>
               </div>

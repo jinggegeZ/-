@@ -17,22 +17,21 @@
             </div>
             <!-- 定位盒子-->
             <div class="itembox">
-              <div class="itembox1">
                 
+              <div class="itembox1">
+              <!-- 上部大数据-->
                 <div class="itembox2" v-for="(item1,index1) in item.child" :key="index1">
-                <!-- 上部大数据-->
-                  <div class="item-child">
-                    <div>{{item1.title}}</div>
-                    <div>更多<span><img class="icon1" src="../../../public/image/right.png" alt /></span></div>
+                  <div>{{item1.title}}</div>
+                  <div>
+                    更多
+                    <span>
+                      <img class="icon1" src="../../../public/image/right.png" alt />
+                    </span>
                   </div>
-                  <!-- 详细数据-->
-                  <div class="itembox3">
-                    <div class="itembox4" v-for="(item2,index2) in item1.child" :key="index2">
-                        {{item2}}
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
+
             </div>
           </div>
         </div>

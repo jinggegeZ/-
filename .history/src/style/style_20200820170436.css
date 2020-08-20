@@ -355,16 +355,19 @@
  
   .itembox2 {
       width: 100%;
+      height: 60px;
       line-height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       font-size: 16px;
-      
+      border-bottom: 1px solid rgb(229,229,229);
       margin-bottom: 20px;
   }
   .item-child {
       width: 100%;
       display: flex;
       justify-content: space-between;
-      border-bottom: 1px solid rgb(229,229,229);
   }
   .itembox3 {
       display: flex;
@@ -372,11 +375,6 @@
   }
 
   .itembox4 {
-    color: #999;
-    font-size: 12px;
-    line-height: 15px;
-    display: inline-block;
-    margin-right: 16px;
-    margin-top: 10px;
-    cursor: pointer;
+      padding: 2px;
+
   }

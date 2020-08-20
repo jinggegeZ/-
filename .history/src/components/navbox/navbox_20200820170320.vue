@@ -23,13 +23,16 @@
                 <!-- 上部大数据-->
                   <div class="item-child">
                     <div>{{item1.title}}</div>
-                    <div>更多<span><img class="icon1" src="../../../public/image/right.png" alt /></span></div>
+                    <div>
+                      更多
+                      <span>
+                        <img class="icon1" src="../../../public/image/right.png" alt />
+                      </span>
+                    </div>
                   </div>
                   <!-- 详细数据-->
                   <div class="itembox3">
-                    <div class="itembox4" v-for="(item2,index2) in item1.child" :key="index2">
-                        {{item2}}
-                    </div>
+                    <div class="itembox4"></div>
                   </div>
                 </div>
               </div>
