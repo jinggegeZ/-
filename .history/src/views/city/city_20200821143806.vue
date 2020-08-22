@@ -1,0 +1,41 @@
+<template>
+ <div>
+    <top :city="city"></top>
+    <Navigation :city="city"></Navigation>
+ </div>
+</template>
+
+<script>
+import top from "../components/top/top";
+import Navigation from "../components/Navigation/Navigation";
+ export default {
+   name: '',
+   props: {
+   },
+   components: {
+        top,
+    Navigation,
+   },
+   data () {
+     return {
+
+     }
+   },
+   methods: {
+
+   },
+   mounted() {
+
+   },
+   watch: {
+
+   },
+   computed: {
+
+   }
+ }
+</script>
+
+<style scoped lang='scss'>
+
+</style>
