@@ -1,0 +1,1279 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body,html{
+    background: #fff;
+}
+/* 这是css3媒体查询 */
+@media screen and (max-width: 1200px) {
+    .top {
+        width: 960px !important;
+    }
+}
+
+/* top样式 */
+.topbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(248,248,248);
+    font-size: 14px;
+}
+
+.topbox2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.topbox1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 15px 20px -15px rgb(234,234,234);
+    font-size: 14px;
+}
+.topbox3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.restopbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background: rgb(248,248,248); */
+    font-size: 14px;
+    border-bottom: 1.8px solid rgb(238,238,238);
+}
+.top {
+    width: 1190px;
+
+}
+
+.top1 {
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbox {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+.spans1 {
+    margin-left: 5px;
+}
+.user {
+    display: flex;
+}
+.spans:hover {
+    color: #FE8C00;
+}
+.spans1:hover {
+    color: #FE8C00;
+}
+.rightbox {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.rightbox1 {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.postion {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.rightbox2 {
+    visibility: hidden;
+    right: -1px;
+    position: absolute;
+    z-index: 998;
+    top: 99%;
+    background: white;
+    border-left: 1px solid rgb(229, 229, 229);
+    border-bottom: 1px solid rgb(229, 229, 229);
+    border-right: 1px solid rgb(229, 229, 229);
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+.rightbox3 {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 80px;
+}
+
+.rightbox4 {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 118px;
+}
+
+.rightbox5 {
+    width: 1190px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.rightbox6 {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightbox6-1 {
+    width: 200px;
+}
+
+.rightbox6-1-1 {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.rightbox6-1-2 {
+    width: 200px;
+    height: 190px;
+    font-size: 12px;
+}
+
+.rightbox6-1-2-1 {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightbox6-1-2-2 {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rightbox6-2 {
+    width: 100px;
+}
+
+.rightbox6-2-1 {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.rightbox6-2-1-1 {
+    width: 100px;
+    height: 190px;
+    font-size: 12px;
+}
+
+.rightbox6-2 {
+    width: 100px;
+}
+
+.rightbox6-2-1-1-font {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbox6-3 {
+    width: 350px;
+
+}
+
+.rightbox6-3-1 {
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.rightbox6-3-1-1 {
+    width: 350px;
+    height: 190px;
+    font-size: 12px;
+}
+
+.rightbox6-3-1-1-1 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightbox6-3-1-1-1-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.nav2box2font:hover {
+    color: rgb(251, 199, 0);
+}
+
+.nav2box2font2:hover {
+    color: red;
+}
+
+.postion:hover {
+    color: #FE8C00;
+}
+
+.rightbox3:hover {
+    color: #FE8C00;
+}
+
+.rightbox4:hover {
+    color: #FE8C00;
+}
+
+.rightbox1:hover .rightbox2 {
+    visibility: visible
+}
+
+.rightbox1:hover {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.rightbox1:hover .postion {
+    background-color: white;
+
+
+}
+
+.leftboximg {
+    width: 15px;
+    height: 15px;
+}
+
+.rightnow {
+    color: #FE8C00;
+    margin-right: 10px;
+}
+
+/* nav部分 */
+.nav {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav1 {
+    width: 240px;
+    margin-right: 100px;
+}
+
+.nav1img {
+    width: 126px;
+    height: 46px;
+
+}
+
+.nav1input {
+    display: flex;
+    width: 469px;
+    height: 50px;
+    align-items: center;
+}
+
+.nav1input1 {
+    width: 469px;
+    position: relative;
+}
+
+.nav1input1box {
+    position: absolute;
+    top: 140px;
+    width: 469px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 99;
+}
+
+.item {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.nav1inputboox {
+    width: 80px;
+    height: 40px;
+    background-color: #FE8C00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1inputbooximg {
+    width: 20px;
+    height: 20px;
+}
+
+.nav2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.nav2box {
+    width: 228px;
+    height: 50px;
+    border-left: 1px solid rgb(229, 229, 229);
+    border-top: 1px solid rgb(229, 229, 229);
+    border-right: 1px solid rgb(229, 229, 229);
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.all {
+    padding-left: 20px;
+}
+
+.nav2box2 {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    font-size: 17px;
+}
+
+/* navbox 部分 */
+.navbox {
+    display: flex;
+}
+
+.navleftbox {
+    width: 18%x;
+    height: 425px;
+    border-left: 1px solid rgb(229, 229, 229);
+    border-right: 1px solid rgb(229, 229, 229);
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.navrightbox {
+    width: 78%;
+    height: 425px;
+}
+
+.navleftbox-item {
+    width: 228px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flood-color: #646464;
+    margin-top: 1px;
+    position: relative;
+}
+
+.navleftbox-item:hover .itembox {
+    background: rgb(254,254,254);
+    visibility: visible;
+}
+
+.icon {
+    width: 16px !important;
+    height: 16px !important;
+    margin-right: 10px;
+}
+
+.icon1 {
+    width: 12px;
+    height: 12px;
+}
+
+.itembox {
+    visibility: hidden;
+    position: absolute;
+    left: 100%;
+    width: 400px;
+    height: 450px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.itembox1 {
+    width: 90%;
+    height: 90%;
+
+}
+
+.itembox2 {
+    width: 100%;
+    line-height: 60px;
+    font-size: 16px;
+
+    margin-bottom: 20px;
+}
+
+.item-child {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.itembox3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itembox4 {
+    color: #999;
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* navbox右边渲染部分css */
+.navrightbox-1 {
+    display: flex;
+    width: 950px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navrightbox-swiper {
+    width: 550px;
+    height: 240px;
+}
+.swiperimg {
+    width: 550px;
+}
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 18px;
+    opacity: 0.75;
+    line-height: 300px;
+    margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
+.el-carousel{
+    height: 100%;
+}
+.el-carousel__container{
+    height: 100% !important;
+}
+.navrightbox-2 {
+    width: 150px;
+    height: 239px;
+    margin: 0 10px;
+}
+.navrightbox-2img {
+    width: 150px;
+}
+.top-loginbox {
+    width: 228px;
+    height: 238px;
+    border: 1px solid rgb(229,229,229);
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-loginbox1 {
+    width: 95%;
+    height: 95%;
+}
+.top-loginbox2 {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.top-loginbox2-1 {
+    width: 100%;
+    height: 100%;
+}
+.top-loginbox2-1imgbox {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-loginbox2-1img {
+    width: 50px;
+    height: 50px;
+    
+}
+.userbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.changebox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+
+}
+.changeboximg {
+    width: 30px;
+    height: 30px;
+}
+.headimg {
+    width: 228px;
+    height: 59px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headimg1{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.headimg2 {
+    width: 228px;
+    height: 21px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headimg2-1 {
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headimg3 {
+    width: 119px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border:1px solid rgb(229,229,229);
+}
+/* 下部解析部分 */
+.bottombox {
+    display: flex;
+    margin-left: 10px;
+}
+.bottombox-1 {
+    width: 270px;
+    height: 165px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.bottombox-1img {
+    width: 270px;
+}
+.bottombox-2 {
+    width: 270px;
+    height: 165px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.bottombox-3 {
+    width: 150px;
+    height: 165px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.bottombox-3img {
+    width: 150px;
+}
+.bottombox-4 {
+    width: 230px;
+    height: 165px;
+    border:1px solid rgb(229,229,229);
+    margin-top: 10px;
+}
+.bottombox-4-1 {
+    width: 230px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottombox-4-1-1 {
+    width: 95px;
+    height: 95px;
+}
+.bottombox-5 {
+    width: 230px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.bottombox-6 {
+    scale: 230px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.bottombox6-1 {
+    color: red;
+    margin-right: 5px;
+}
+/* 有格调部分 */
+.stybox {
+    width: 100%;
+    height: 50px;
+    background: rgb(242,191,71);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 0 0 ;
+}
+.stybox1 {
+    display: flex;
+}
+.stybox1-font {
+    font-size: 18px;
+    color: white;
+    margin: 0 20px 0 20px;
+}
+.stybox1-font2 {
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+.stybox1-font2-item1 {
+    position: relative;
+    width:120px;
+    display: flex;
+    justify-content: center;
+}
+/* .stybox1-font2-item1:hover .triangle_border_up {
+    visibility: visible;
+}
+.stybox1-font2-item2:hover .triangle_border_up {
+    visibility: visible;
+}
+.stybox1-font2-item4:hover .triangle_border_up {
+    visibility: visible;
+} */
+.stybox1-font2-item2 {
+    text-align: center;
+}
+
+.stybox2-img {
+    width: 14px;
+    height: 14px;
+    margin-top: 5px;
+}
+.stybox2 {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+/* 向上的三角形 */
+.triangle_border_up{
+    /* visibility: hidden; */
+    width:0px;
+    height:0px;
+    border-width:0 10px 10px;
+    border-style:solid;
+    border-color:transparent transparent #fff;/*透明 透明  灰*/
+    margin-top:10px;
+    position: absolute;
+    bottom: -17px;
+}
+.stybox3 {
+    width: 1188px;
+    height: 687px;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid rgb(229,229,229);
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.stybox3-item {
+    width: 370px;
+    height: 330px;
+    margin: 10px;
+    
+}
+.stybox3-itemimg {
+    width: 370px;
+    height: 208px;
+    margin-bottom: 10px;
+
+}
+.stybox3-itemimg1 {
+    width: 370px;
+    height: 208px;
+
+}
+.stybox3-itemfont {
+    font-size: 14px;
+}
+.font2 {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+/* 城市选择部分 */
+.citybox {
+    width: 1190px;
+    padding: 20px;
+    font-size: 16px;
+    background-color: #fff;
+    margin: 20px auto 0;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    min-height: 1000px;
+    padding: 20px;
+}
+.citybox-province {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 19px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.proviencechosebox {
+    width: 220px;
+    height: 40px;
+    margin: 0 10px 0 20px;
+    font-size: 14px;
+    color: #666;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.citychosebox {
+    width: 220px;
+    height: 40px;
+    font-size: 14px;
+    color: #666;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+.cityboximg {
+    width: 10px;
+    height: 15px;
+}
+/* 直接搜素 */
+.directSearch {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.directSearchbox {
+    width: 220px;
+    height: 40px;
+    font-size: 14px;
+    color: #666;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+.el-input__inner {
+    width: 100% !important;
+}
+.el-input {
+    width: 100% !important;
+}
+/* 热门城市选择 */
+.hotcitychose {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+.hotcitychosebox {
+    display: flex;
+    align-items: center;
+    width: 748px;
+    height: 20px;
+    justify-content: space-around;
+}
+/* 最近访问 */
+
+.recentVisit {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+.recentVisitchosebox {
+    display: flex;
+    align-items: center;
+    width: 748px;
+    height: 20px;
+    
+}
+.recentVisitchosebox-item {
+    margin-right: 10px;
+}
+/* 拼音首字母 */
+.Initials {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    align-items: center;
+}
+.Initialsbox {
+    display: flex;
+    align-items: center;
+    width: 748px;
+    height: 20px;
+    justify-content: space-around;
+}
+.Initialsbox a {
+    text-decoration: none !important;
+    color: #666;
+}
+/* 详细地区 */
+.detailscity {
+    width: 1148px;
+    display: flex;
+    padding: 13px 30px 13px 10px;
+}
+.letter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(255,208,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letters {
+    width: 1065px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.letters a{
+    text-decoration:none !important;
+    color: #666;
+}
+.letters-item {
+    margin: 10px 20px;
+    display: inline;
+}
+/* 登录页面 */
+
+.logintopbox {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logintopbox1 {
+    width: 1190px;
+    height: 47px;
+}
+.logintopbox1img {
+    width: 130px;
+    height: 47px;
+}
+.sloginbox {
+    width: 100%;
+    /* height: 370px; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.sloginbox1 {
+    height: 370px;
+    width: 480px;
+}
+.sloginbox1img {
+    width: 480px;
+    height: 370px;
+}
+.login-section {
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+    margin-left: 115px;
+    
+}
+.login-sectionbox {
+    width: 95%;
+}
+.login-section1 {
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-section1img {
+    width: 15px;
+    height: 15px;
+}
+.login-section1img2 {
+    width: 22px;
+    height: 22px;
+    
+}
+.login-section2 {
+    margin-bottom: 10px;
+    width: 270px;
+    height: 40px;
+    border: 1px solid rgb(255,208,0);
+    display: flex;
+    align-items: center;
+}
+.login-section2imgbox {
+    width: 37px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-section2img {
+    width: 30px;
+    height: 30px;
+}
+.login-section2 input {
+    border: none;
+}
+.forgetpassword {
+    font-size: 12px;
+    width: 100%;
+    height: 26px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: red;
+}
+.loginbox {
+    width: 270px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,208,0);
+}
+.goresgiter {
+    width: 270px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.goresgiter1 {
+    color: rgb(254,140,0);
+}
+.otherlogin {
+    width: 270px;
+}
+.otherloginbox1 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otherloginbox1-1 {
+    width: 50px;
+    height: 1px;
+    background: rgb(204,204,204);
+    margin-right: 5px;
+}
+.otherloginbox1-2 {
+    width: 50px;
+    height: 1px;
+    background: rgb(204,204,204);
+    margin-left: 5px;
+}
+.otherloginbox2 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.otherloginbox2-1 {
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.otherloginbox2-1img {
+    width: 20px;
+    height: 20px;
+}
+/* 底部说明 */
+.footbox {
+    width: 100%;
+    height: 48px;
+    border-top: 1px solid rgb(238,238,238);
+    border-bottom: 1px solid rgb(238,238,238);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+
+}
+.footboxitem {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footboxitem-mid {
+    width: 1px;
+    height: 10px;
+    background: rgb(244,244,244);
+}
+/* 版权所有 */
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    color: #666;
+}
+/* 注册部分 */
+.resgtopbox {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.resgtopbox-1img {
+    width: 126px;
+    height: 46px;
+}
+.resgtopboxfont {
+    color: orange;
+}
+.resgitermsgbox {
+    width: 1190px;
+    font-size: 12px;
+    color: #666;
+    
+}
+.resgitermsgbox1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.resgitermsgbox1-1 {
+    width: 90%;
+    height: 45px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.inforbox {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rsgmsgbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.resgitermsginputbox {
+    width: 260px;
+    height: 40px;
+    border: 1px solid rgb(204,204,204);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.resgitermsginputbox input {
+    border: none !important;
+}
+.resgiterbutton {
+    width: 136px;
+    height: 21px;
+    background: rgb(230,230,230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.resgiterbutton:hover {
+    background: rgb(240,240,240);
+}
+.resgiterbutton1 {
+    display: flex;
+    width: 260px;
+    height: 21px;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin-left: 15px;
+}
+.resgiterbutton1-item {
+    width: 80px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(240,240,240);
+    background: rgb(230,230,230);
+}
+.resgiterbutton1-item1 {
+    width: 80px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(240,240,240);
+    background: rgb(255,205,0);
+
+}
+.resgiterbutton2 {
+    display: flex;
+    width: 178px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,205,0);
+    margin-left: 15px;
+    font-size: 14px;
+    color: black;
+}
+.resgiterbutton3 {
+    color: rgb(255,205,0);
+    margin-left: 15px;
+}
+.rsgmsgboxfooter {
+    width: 100%;
+    border-top: 1px solid rgb(238,238,238);
+    margin-bottom: 20px;
+}
+.rsgmsgboxfootermsg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #999999;
+}
+/* 详情部分 */
+.detail-topbox {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.detail-topbox-left {
+    display: flex;
+    align-items: center;
+}
+.detail-topbox-leftimg {
+    width: 126px;
+    height: 46px;
+}
+.detail-topbox-leftbox {
+    padding: 10px;
+    margin-left: 10px;
+}
+.detail-topbox-leftbox input {
+    width: 100px;
+    height: 40px;
+}
+.hover:hover {
+    color: orange;
+}
+.detail-topbox-right {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+}
+.detail-topbox-right input{
+    width: 300px !important;
+}
+.detail-topbox-rightbox {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255,195,0);
+}
