@@ -175,7 +175,7 @@ export default {
     if(localStorage){
       this.user = localStorage.getItem('username')
     }
-    console.log(localStorage.getItem('username'));
+    
        //获取城市
     this.$api
       .getposition()
